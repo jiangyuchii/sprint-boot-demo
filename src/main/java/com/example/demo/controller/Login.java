@@ -11,4 +11,9 @@ public class Login {
     public String login(){
         return "index";
     }
+
+    @RequestMapping("/hello")
+    public String hello(){
+        return "hello world!";
+    }
 }
